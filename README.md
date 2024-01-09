@@ -10,7 +10,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 ## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+These are the critical requirements followed to develop a portfolio that satisfies a typical hiring manager’s needs:
 
 ```
 GIVEN I need to sample a potential employee's previous work
@@ -26,7 +26,7 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
-``
-![Portfolio Immage](<"Web capture_8-1-2024_172830_.jpeg">)
+```
+# The following image shows THE application:
 
-
+![Portfolio Immage](<assets/Web capture_8-1-2024_172830_.jpeg>)
