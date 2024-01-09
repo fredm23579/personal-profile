@@ -57,9 +57,9 @@
       "issueCells": 0,
       "sections": {}
     },
-    "index1.html": {
-      "sourceRelFile": "index1.html",
-      "notebookRelFile": ".boost/index1.html.boost-notebook",
+    "index.html": {
+      "sourceRelFile": "index.html",
+      "notebookRelFile": ".boost/index.html.boost-notebook",
       "totalCells": 0,
       "completedCells": 0,
       "errorCells": 0,
