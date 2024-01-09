@@ -3,7 +3,7 @@
   "summary": {
     "projectName": "personal-profile",
     "summaryUrl": ".boost\\personal-profile.summary.boost-notebook",
-    "filesToAnalyze": 5,
+    "filesToAnalyze": 6,
     "filesAnalyzed": 0,
     "issues": [
       "No summary file found at .boost\\personal-profile.summary.boost-notebook"
@@ -60,6 +60,15 @@
     "index.html": {
       "sourceRelFile": "index.html",
       "notebookRelFile": ".boost/index.html.boost-notebook",
+      "totalCells": 0,
+      "completedCells": 0,
+      "errorCells": 0,
+      "issueCells": 0,
+      "sections": {}
+    },
+    ".github\\workflows\\static.yml": {
+      "sourceRelFile": ".github\\workflows\\static.yml",
+      "notebookRelFile": ".boost/.github/workflows/static.yml.boost-notebook",
       "totalCells": 0,
       "completedCells": 0,
       "errorCells": 0,
