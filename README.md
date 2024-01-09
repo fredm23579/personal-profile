@@ -1,4 +1,13 @@
 # Professional-Profile
+
+## Here is a link to the deployed application: 
+
+https://fredm23579.github.io/personal-profile/
+
+## Here is the link to the repository:
+
+https://github.com/fredm23579/personal-profile
+
 ## User Story
 
 ```
@@ -30,3 +39,14 @@ THEN I am presented with a responsive layout that adapts to my viewport
 # The following image shows the application:
 
 ![Portfolio Immage](<Web capture_8-1-2024_172830_.jpeg>)
+
+## Here is a link to the deployed application: 
+
+https://fredm23579.github.io/personal-profile/
+
+## Here is the link to the repository:
+
+https://github.com/fredm23579/personal-profile
+
+
+
