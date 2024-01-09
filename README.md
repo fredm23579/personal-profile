@@ -27,6 +27,6 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-# The following image shows THE application:
+# The following image shows the application:
 
 ![Portfolio Immage](<Web capture_8-1-2024_172830_.jpeg>)
