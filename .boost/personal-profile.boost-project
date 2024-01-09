@@ -30,15 +30,6 @@
       "issueCells": 0,
       "sections": {}
     },
-    "index.html": {
-      "sourceRelFile": "index.html",
-      "notebookRelFile": ".boost/index.html.boost-notebook",
-      "totalCells": 0,
-      "completedCells": 0,
-      "errorCells": 0,
-      "issueCells": 0,
-      "sections": {}
-    },
     "assets\\style.css": {
       "sourceRelFile": "assets\\style.css",
       "notebookRelFile": ".boost/assets/style.css.boost-notebook",
@@ -60,6 +51,15 @@
     ".vscode\\settings.json": {
       "sourceRelFile": ".vscode\\settings.json",
       "notebookRelFile": ".boost/.vscode/settings.json.boost-notebook",
+      "totalCells": 0,
+      "completedCells": 0,
+      "errorCells": 0,
+      "issueCells": 0,
+      "sections": {}
+    },
+    "index1.html": {
+      "sourceRelFile": "index1.html",
+      "notebookRelFile": ".boost/index1.html.boost-notebook",
       "totalCells": 0,
       "completedCells": 0,
       "errorCells": 0,
