@@ -29,4 +29,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 # The following image shows THE application:
 
-![Portfolio Immage](<assets/Web capture_8-1-2024_172830_.jpeg>)
+![Portfolio Immage](<Web capture_8-1-2024_172830_.jpeg>)
