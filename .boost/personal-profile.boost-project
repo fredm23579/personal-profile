@@ -3,7 +3,7 @@
   "summary": {
     "projectName": "personal-profile",
     "summaryUrl": ".boost\\personal-profile.summary.boost-notebook",
-    "filesToAnalyze": 6,
+    "filesToAnalyze": 5,
     "filesAnalyzed": 0,
     "issues": [
       "No summary file found at .boost\\personal-profile.summary.boost-notebook"
@@ -33,15 +33,6 @@
     "assets\\style.css": {
       "sourceRelFile": "assets\\style.css",
       "notebookRelFile": ".boost/assets/style.css.boost-notebook",
-      "totalCells": 0,
-      "completedCells": 0,
-      "errorCells": 0,
-      "issueCells": 0,
-      "sections": {}
-    },
-    "assets\\reset.css": {
-      "sourceRelFile": "assets\\reset.css",
-      "notebookRelFile": ".boost/assets/reset.css.boost-notebook",
       "totalCells": 0,
       "completedCells": 0,
       "errorCells": 0,
