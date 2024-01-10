@@ -20,6 +20,10 @@
     text-shadow: none;
 
 }
+
+
+  
+  /* set default font size to 10px, which is 1rem */
   
 html, body {
     font-size: 62.5%; /* 10px */
@@ -29,94 +33,21 @@ html, body {
     margin: 0;
     padding: 0;
 }
-/* #awards {
-    text-shadow: var(--outer-space);
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-size: 1.5em;
-    line-height: 1.4;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-}
-#about { 
-
-    text-shadow: var(--outer-space);
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-size: 1.5em;
-    line-height: 1.4;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-}
-#contact {
-    text-shadow: var(--outer-space);
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-size: 1.5em;
-    line-height: 1.4;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-}
-#skills {
-    text-shadow: var(--outer-space);
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-size: 1.5em;
-    line-height: 1.4;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-}
-#education {
-    text-shadow: var(--outer-space);
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-size: 1.5em;
-    line-height: 1.4;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-}
-
-#projects { 
-    text-shadow: var(--outer-space);
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-size: 1.5em;
-    line-height: 1.4;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-}
-
-#experience {
-    text-shadow: var(--outer-space);
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-size: 1.5em;
-    line-height: 1.4;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-}
-
-#footer {
-    text-shadow: var(--outer-space);
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-size: 1.5em;
-    line-height: 1.4;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-} */
 
 
 /* Navigation Bar */
 #nav {
+    display: inline;
+    float: center;
+    width: 100%;
+    background-color: var(--heliotrope);
+    color: var(--outer-space);
+    text-align: center; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 0;
+    z-index: 100;
     background-color: var(--outer-space); /* Change as per your color scheme */
     color: var(--white);
     text-align: center;
@@ -151,7 +82,47 @@ section {
 
 /* Header Styling */
 header {
+    text-align: right;
+    padding: 20px;
+    margin-top: 60px; /* Space for the fixed nav bar */
+    background-color: var(--outer-space); /* Change as per your color scheme */
+    color: var(--white);
     text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Keeps the nav bar at the top */
+    top: 0;
+    width: 100%;
+    z-index: 1; /* Ensures nav is above other content */
+    opacity: 0.0;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    box-shadow: 0 0 15px rgb(102, 164, 236), 0 0 15px rgb(102, 220, 236);
+    -webkit-box-shadow: 0 0 15px rgb(102, 164, 236), 0 0 15px rgb(102, 220, 236);
+    -moz-box-shadow: 0 0 15px rgb(102, 164, 236), 0 0 15px rgb(102, 220, 236);
+    -ms-box-shadow: 0 0 15px rgb(102, 164, 236), 0 0 15px rgb(102, 220, 236);
+    -o-box-shadow: 0 0 15px rgb(102, 164, 236), 0 0 15px rgb(102, 220, 236);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--outer-space); /* Change as per your color scheme */
+    color: var(--white);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Keeps the nav bar at the top */
+    top: 0;
+    width: 100%;
+    z-index: 1; /* Ensures nav is above other content */
 }
 
 /* Image Styling */
@@ -161,11 +132,26 @@ header {
     border-radius: 50%;
     border: 1px solid var(--outer-space);
     margin: 20px auto;
+    :hover {
+        background-color: var(--gin);
+        color: var(--outer-space);
+        text-shadow: var(--black)
+    
+    }
 }
 
 /* Footer Styling */
 footer {
     text-align: center;
+    padding: 20px;
+    background-color: var(--outer-space);
+    color: var(--white);
+    text-shadow: var(--black);
+    margin-top: 60px;
+    font-size: 0.8rem;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
 }
 #p {
     font-size: 1.6rem;
@@ -230,19 +216,25 @@ h1 {
     padding: 0;    
     width: 100px !important;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 10%;
     border: 1px solid var(--outer-space);
     background-color: var(--outer-space);
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    :hover {
+        background-color: var(--gin);
+        color: var(--outer-space);
+        text-shadow: var(--black)
+    
+    }
 
 }
 #img-project1 {
-    width: 125px !important;
-    height: 125px;
-    border-radius: 50%;
+    width: 200px !important;
+    height: 200px;
+    border-radius: 20%;
     border: 1px solid var(--outer-space);
     background-color: var(--outer-space);
     margin: 0 auto;
@@ -261,12 +253,18 @@ h1 {
     box-shadow: 0 0 15px rgb(102, 164, 236), 0 0 15px rgb(102, 220, 236);
    
     position: relative !important;
+    :hover {
+        background-color: var(--gin);
+        color: var(--outer-space);
+        text-shadow: var(--black)
+    
+    }
 
 }
 #img-project2 {
-    width: 125px !important;
-    height: 125px;
-    border-radius: 50%;
+    width: 200px !important;
+    height: 200px;
+    border-radius: 20%;
     border: 1px solid var(--outer-space);
     background-color: var(--outer-space);
     margin: 0 auto;
@@ -285,6 +283,12 @@ h1 {
     box-shadow: 0 0 15px rgb(102, 164, 236), 0 0 15px rgb(102, 220, 236);
    
     position: relative !important;
+    :hover {
+        background-color: var(--gin);
+        color: var(--outer-space);
+        text-shadow: var(--black)
+    
+    }
 }
 
 #img-fred {
@@ -309,6 +313,12 @@ h1 {
     box-shadow: 0 0 15px rgb(102, 164, 236), 0 0 15px rgb(102, 220, 236);
    
     position: relative !important;
+    :hover {
+        background-color: var(--gin);
+        color: var(--outer-space);
+        text-shadow: var(--black)
+    
+    }
 }
 #content {
     margin-top: 20px;
@@ -347,15 +357,10 @@ h1 {
     height: 100%;
     transition: all 0.5s ease-in-out;
     z-index: 0;
-    background-image: url("https://images.unsplash.com/photo-1517245386807-9b4d0d6f9a2a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
     background-size: cover;
     background-position: center;
- 
     filter: blur(5px);
     transform: scale(1.1);
-
-
-
 }
 #menu {
     position: absolute;
@@ -366,15 +371,12 @@ h1 {
     transition: all 0.5s ease-in-out;
     z-index: 1;
     background-color: var(--black);
-
     transform: scale(0.9);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 20px;
-
-
 }
   /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 @media screen and (min-width: 768px) {
@@ -408,7 +410,7 @@ h1 {
       justify-content: center;
       width: 100%;
       height: 100%;
-      opacity: 0;
+      opacity: 0.0;
       transform: scale(0.9);
    
       transition: all 0.5s ease-in-out;
