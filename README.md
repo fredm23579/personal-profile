@@ -48,5 +48,11 @@ https://fredm23579.github.io/personal-profile/
 
 https://github.com/fredm23579/personal-profile
 
+## Contact Info
+
+For questions or comments, please contact us at motta@g.ucla.edu.
+---
+
+
 
 
